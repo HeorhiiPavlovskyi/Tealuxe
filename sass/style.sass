@@ -437,8 +437,6 @@ a
 		margin-left: 8px
 		position: absolute
 		bottom: 2px
-		&:hover 
-			opacity: 0.3
 
 .main-blog__link
 	padding: 12px 41px
@@ -532,6 +530,7 @@ a
 	font-weight: 300
 	cursor: pointer
 	transition: $transition
+	-webkit-appearance: none
 	@media (max-width: 480px)
 		padding: 10px 39px
 	&:hover
@@ -747,6 +746,8 @@ a
 		height: 16px
 		background-image: url(../img/mail.svg)
 		top: 1px
+	@media (max-width: 480px)
+		padding-left: 25px
 
 .footer__nav-phone
 	&:before 

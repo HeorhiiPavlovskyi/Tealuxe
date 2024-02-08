@@ -483,8 +483,6 @@ a {
     margin-left: 8px;
     position: absolute;
     bottom: 2px; }
-    .main-blog__item-link:after:hover {
-      opacity: 0.3; }
 
 .main-blog__link {
   padding: 12px 41px;
@@ -584,7 +582,8 @@ a {
   font-size: 20px;
   font-weight: 300;
   cursor: pointer;
-  transition: 0.3s; }
+  transition: 0.3s;
+  -webkit-appearance: none; }
   @media (max-width: 480px) {
     .mailing-list__btn {
       padding: 10px 39px; } }
@@ -818,6 +817,9 @@ a {
     height: 16px;
     background-image: url(../img/mail.svg);
     top: 1px; }
+  @media (max-width: 480px) {
+    .footer__nav-phone, .footer__nav-email {
+      padding-left: 25px; } }
 
 .footer__nav-phone:before {
   background-image: url(../img/phone.svg);
